@@ -53,9 +53,10 @@ p {
 div p {
     font-size: 25px;
 }
-
-
 /*Make only inputs with type 'text' have a gray background*/
+input[type=text] {
+    background-color: gray;
+}
 
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
